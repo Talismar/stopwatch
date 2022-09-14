@@ -1,0 +1,42 @@
+.main {
+  height: 80vh;
+  width: 100%;
+
+  background: #147a6c;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main > p {
+  font-size: 8vw;
+  color: white;
+}
+
+.Btns{
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 10px;
+}
+
+.Btns > button {
+  font-size: 4vw;
+  padding: 5px;
+  margin: 0 10px;
+  border: solid wheat 2px;
+  border-radius: 4px;
+  background: #1b1a1a;
+  
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+}
+
+.Btns > button:hover {
+  background: #254340;
+}
